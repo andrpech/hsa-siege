@@ -1,0 +1,35 @@
+** SIEGE 4.1.6
+** Preparing 25 concurrent users for battle.
+The server is now under siege...
+[[1;33merror[0m] socket: unable to connect sock.c:282: Operation timed out
+[[1;33merror[0m] socket: unable to connect sock.c:282: Operation timed out
+[[1;33merror[0m] socket: unable to connect sock.c:282: Operation timed out
+[[1;33merror[0m] socket: unable to connect sock.c:282: Operation timed out
+[[1;33merror[0m] socket: unable to connect sock.c:282: Operation timed out
+[[1;33merror[0m] socket: unable to connect sock.c:282: Operation timed out
+[[1;33merror[0m] socket: unable to connect sock.c:282: Operation timed out
+[[1;33merror[0m] socket: unable to connect sock.c:282: Operation timed out
+[[1;33merror[0m] socket: unable to connect sock.c:282: Operation timed out
+[[1;33merror[0m] socket: unable to connect sock.c:282: Operation timed out
+[[1;33merror[0m] socket: unable to connect sock.c:282: Operation timed out
+[[1;33merror[0m] socket: unable to connect sock.c:282: Operation timed out
+[[1;33merror[0m] socket: unable to connect sock.c:282: Operation timed out
+[[1;33merror[0m] socket: unable to connect sock.c:282: Operation timed out
+[[1;33merror[0m] socket: unable to connect sock.c:282: Operation timed out
+[[1;33merror[0m] socket: unable to connect sock.c:282: Operation timed out
+[[1;33merror[0m] socket: unable to connect sock.c:282: Operation timed out
+
+Lifting the server siege...
+Transactions:		       32598 hits
+Availability:		       99.95 %
+Elapsed time:		       60.39 secs
+Data transferred:	       21.61 MB
+Response time:		        0.02 secs
+Transaction rate:	      539.79 trans/sec
+Throughput:		        0.36 MB/sec
+Concurrency:		       11.72
+Successful transactions:       32598
+Failed transactions:	          17
+Longest transaction:	       19.53
+Shortest transaction:	        0.00
+ 

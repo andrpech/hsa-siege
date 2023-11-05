@@ -1,0 +1,30 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Character {
+  id        Int      @id @default(autoincrement())
+  name      String
+  height    String
+  mass      String
+  hairColor String   @map("hair_color")
+  skinColor String   @map("skin_color")
+  eyeColor  String   @map("eye_color")
+  birthYear String   @map("birth_year")
+  gender    String
+  homeworld String
+  films     String[]
+  species   String[]
+  vehicles  String[]
+  starships String[]
+  created   DateTime @map("created_at")
+  edited    DateTime @map("edited_at")
+  url       String
+
+  @@map("characters")
+}
